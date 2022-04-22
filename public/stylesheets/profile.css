@@ -1,0 +1,36 @@
+#card img{
+    margin:auto;
+    width:150px;
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 10px 40px -20px rgb(0 0 0 / 20%);
+    text-align:center;
+}
+
+a{
+    display:inline-block;
+    background-color:#2586eb;
+    color:#fff;
+    border:none;
+    outline-color:royalblue;
+    padding:8px 22px;
+    margin-top:10px;
+    border-radius:5px;
+    text-decoration:none;
+    font-size:14px;
+}
+
+#card p{
+    margin:20px 0;
+    width:100%;
+}
